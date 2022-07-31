@@ -1,6 +1,7 @@
 *.gem
 *.rbc
 /.config
+/config/
 /coverage/
 /InstalledFiles
 /pkg/
@@ -37,6 +38,9 @@ build-iPhoneSimulator/
 /_yardoc/
 /doc/
 /rdoc/
+
+## IDEA:
+/.idea/
 
 ## Environment normalization:
 /.bundle/
