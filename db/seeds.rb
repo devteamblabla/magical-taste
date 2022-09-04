@@ -5,4 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-Mix.create(:name => "Orange Soda Horchata", :description => "Orange Soda 60% + Horchata 40%")
+Mix.destroy_all
+ActiveRecord::Base.reset_pk_sequence
+
+mix_one = Mix.create(name: "Orange Soda Horchata", description: "Orange Soda 60% + Horchata 40%")
